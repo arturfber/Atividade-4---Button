@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Button </title>
+    <link rel="stylesheet" href="../../Bootstrap/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../Bootstrap/Bootstrap/js/bootstrap.js">
+</head>
+<body>
+
+    <div class="container">
+        <h1> ESTILOS DE BOTÕES </h1>
+        <button type="button" class="btn"> Basic </button>
+        <button type="button" class="btn btn-link"> Link </button> 
+        <button type="button" class="btn btn-light"> Light </button>
+        <button type="button" class="btn btn-warning"> Warning </button>
+        <button type="button" class="btn btn-dark"> Dark </button>
+        <button type="button" class="btn btn-danger"> Danger </button>
+        <button type="button" class="btn btn-success"> Success </button>
+        <button type="button" class="btn btn-primary"> Primary </button>
+        <button type="button" class="btn btn-secondary"> Secondary </button>
+        <button type="button" class="btn btn-info"> Info </button>
+    </div>
+    
+
+    <div class="container">
+        <h1> CONTORNO DE BOTÕES </h1>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-light text-dark">Light</button>
+
+    </div>
+
+    <div class="container">
+        <h1> BOTÃO COM LINK </h1>
+        <a href="#" class="btn btn-danger" role="button"> Botão Link </a>
+    </div>
+
+    <div class="container">
+        <h1> BOTÃO INPUT SUBMIT </h1>        
+        <input type="submit" class="btn btn-primary" value="Botão Submit">
+    </div>
+
+    <div class="container">
+        <h1> BOTÕES GIRATÓRIOS </h1>
+        
+        <button class="btn btn-success">
+            <span class="spinner-border spinner-border-sm"></span>
+        </button>
+
+        <button class="btn btn-dark" disabled>
+            <span class="spinner-grow spinner-grow-sm"></span> 
+            Carregando
+        </button>        
+        
+        <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Carregando..
+        </button>
+          
+        <button class="btn btn-danger" disabled>
+            <span class="spinner-border spinner-border-sm"></span>
+            CArregando..
+        </button>     
+    </div>
+
+    <div class="container">
+
+        <h1> BOTÕES DROPDOWN </h1>
+
+            <button type="button" class="btn btn-danger"> Lanches </button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle"> Pizza </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> Calabresa </a>
+                    <a class="dropdown-item" href="#"> À moda </a>
+                    <a class="dropdown-item" href="#"> Vinte de cinco queijos </a>
+
+                </div>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                 Hamburguers
+              </button>
+              <div class="dropdown-menu">                
+                <a class="dropdown-item" href="#"> Cheeseburguer </a>
+                <a class="dropdown-item" href="#"> Xtudo </a>
+                <a class="dropdown-item" href="#"> Desafio da casa </a>
+              </div>
+            </div>
+    </div>
+</body>
+</html>
